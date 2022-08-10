@@ -19,8 +19,8 @@ function Banner({ netflixOriginals }: Props) {
   }, [netflixOriginals])
 
   return (
-    <div className="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[95vh] lg:justify-center lg:pb-12 2xl:h-[40vh]">
-      <div className="absolute top-0 left-0 -z-10 h-full w-full">
+    <div className="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[95vh] lg:justify-center 2xl:h-[60vh]">
+      <div className="absolute top-0 left-0 -z-10 h-[100vh] w-full">
         <Image
           src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`}
           alt=""
